@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: url('https://image.ibb.co/ixWHKU/background-with-dog-paw-print-and-bone-vector-2669100.jpg');
+    background-repeat: repeat;
+    background-size: 300px 300px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgb(300,300,300, 0.8);
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  h1{
+      text-align: center;
+      border-radius: 3px;
+      padding: 3px;
+      font-size: 41px;
+      color: rgb(58, 52, 52);
+      text-shadow: 0 0 0.2em rgb(105, 102, 102);
+}
+
+h2{
+    text-align: center;
+    border-radius: 3px;
+    color: rgb(58, 52, 52);
+    text-shadow: 0 0 0.2em rgb(94, 91, 91);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    width: 50%;
+}
+
+form{
+    text-align: center;
+}
